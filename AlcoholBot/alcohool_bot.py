@@ -3,7 +3,7 @@ import telebot
 from dbWorker import *
 from dbWorker2 import *
 
-bot = telebot.TeleBot('5969375412:AAGJ3bqPeOfZf8XWgnpfxRsSAIgv4qEVJyU')
+bot = telebot.TeleBot('TOKEN')
 prepareDb('db/database.db')
 prepareDb2('db/database2.db')
 
