@@ -4,7 +4,7 @@ from FilmHorror import *
 from FilmCriminal import *
 from Answer import *
 
-bot = telebot.TeleBot('6083248699:AAFHgCUwbM2BGSOsRFmADjEXOUlluE8uuBk')
+bot = telebot.TeleBot('TOKEN')
 prepareDb('db/Films.db')
 prepareDb1('db/Question.db')
 
