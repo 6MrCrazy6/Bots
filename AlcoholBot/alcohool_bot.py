@@ -5,7 +5,7 @@ from dbWorker import *
 from dbWorker2 import *
 from dbTime import *
 
-bot = telebot.TeleBot('5969375412:AAGJ3bqPeOfZf8XWgnpfxRsSAIgv4qEVJyU')
+bot = telebot.TeleBot('TOKEN')
 prepareDb('db/AllLitres.db')
 prepareDb3('db/Timer.db')
 
